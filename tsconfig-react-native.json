@@ -1,0 +1,10 @@
+{
+  "extends": "@fnando/codestyle",
+  "compilerOptions": {
+    "incremental": true,
+    "jsx": "react-native",
+    "lib": ["esnext"],
+    "module": "commonjs",
+    "target": "esnext"
+  }
+}
