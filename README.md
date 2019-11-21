@@ -8,7 +8,7 @@ $ yarn add -D @fnando/codestyle
 
 ## Usage
 
-## Typescript
+### Typescript
 
 There are 3 distinct configuration files.
 
@@ -25,7 +25,7 @@ Create a file `tsconfig.json` with the following lines, extending from the file 
 }
 ```
 
-## Prettier
+### Prettier
 
 Create a file `.prettierrc.js` with the following lines:
 
@@ -33,9 +33,19 @@ Create a file `.prettierrc.js` with the following lines:
 module.exports = require("@fnando/codestyle/prettier.json");
 ```
 
-## ESLint
+### ESLint
 
 [Follow instructions](https://github.com/fnando/eslint-config-codestyle).
+
+### Jest
+
+Create a file `.jest.config.js` with the following lines:
+
+```json
+module.exports = require("@fnando/codestyle/react/jest");
+```
+
+Notice that only React configuration is supported for now.
 
 ## License
 
