@@ -45,7 +45,7 @@ Create a file `.jest.config.js` with the following lines:
 module.exports = require("@fnando/codestyle/react/jest");
 ```
 
-Notice that only React configuration is supported for now.
+You can also use `"@fnando/codestyle/typescript/jest"` for Jest configuration without React.
 
 ## License
 
