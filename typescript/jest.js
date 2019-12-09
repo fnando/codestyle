@@ -3,7 +3,7 @@ module.exports = {
   transform: {
     "^.+\\.ts$": "ts-jest"
   },
-  testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.ts?$",
+  testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.ts$",
   moduleFileExtensions: ["js", "ts", "json"],
   testPathIgnorePatterns: "/vendor/bundle/"
 };
