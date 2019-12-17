@@ -1,5 +1,5 @@
 module.exports = {
-  roots: ["<rootDir>/src"],
+  roots: ["<rootDir>/src", "<rootDir>"],
   modulePaths: ["src"],
   transform: {
     "^.+\\.tsx?$": "ts-jest",
@@ -7,7 +7,5 @@ module.exports = {
     "^.+\\.(scss|css|jpe?g|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
       "jest-filename-transform",
   },
-  testRegex: "^.+\\.(spec|test)\\.[tj]sx?$",
-  moduleFileExtensions: ["js", "jsx", "ts", "tsx", "json"],
-  testPathIgnorePatterns: ["/vendor/bundle/"]
+  testPathIgnorePatterns: ["/vendor/bundle/", "/node_modules/"]
 };
