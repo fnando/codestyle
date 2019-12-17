@@ -12,8 +12,7 @@ $ yarn add -D @fnando/codestyle
 
 There are 3 distinct configuration files.
 
-- `@fnando/codestyle`: the base file
-- `@fnando/codestyle/react`: a React configuration that extends the base file.
+- `@fnando/codestyle`: the base file, which covers regular TypeScript, as well as React's.
 - `@fnando/codestyle/react-native`: a React Native configuration that extends the base file.
 
 Create a file `tsconfig.json` with the following lines, extending from the file you care about. Don't forget to specify the source directory.
