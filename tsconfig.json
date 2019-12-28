@@ -2,8 +2,6 @@
   "compilerOptions": {
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
-    "declaration": true,
-    "declarationDir": "../../../es6",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
@@ -18,7 +16,6 @@
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "../../../es6",
     "pretty": true,
     "removeComments": true,
     "resolveJsonModule": true,

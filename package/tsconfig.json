@@ -1,0 +1,8 @@
+{
+  "extends": "@fnando/codestyle",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "../../../es6",
+    "outDir": "../../../es6"
+  }
+}
