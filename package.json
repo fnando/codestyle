@@ -1,5 +1,8 @@
 {
   "name": "@fnando/codestyle",
   "version": "0.0.11",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "eslint-import-resolver-babel-module": "*"
+  }
 }

@@ -39,7 +39,7 @@ module.exports = require("@fnando/codestyle/prettier.json");
 
 ### Jest
 
-Create a file `.jest.config.js` with the following lines:
+Create a file `jest.config.js` with the following lines:
 
 ```json
 module.exports = require("@fnando/codestyle/react/jest");
